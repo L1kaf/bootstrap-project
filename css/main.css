@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {font-family: 'Montserrat', sans-serif}
+/*Первая часть сайта*/
+header {
+	height: 970px;
+	background: url("../img/fon-header.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-blend-mode: multiply;
+	background-color: #6f737a;
+}
+/*Вторая часть сайта с белым фоном*/
+.main_first {
+	width: auto;
+	height: 485px;
+}
+/*Вторая часть сайта с красным фоном*/
+.main_second {
+	width: auto;
+	height: 485px;
+}
+/*Футер сайта*/
+footer {
+	height: 970px;
+	background: url("../img/fon-footer.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-blend-mode: multiply;
+	background-color: #6f737a;
+}
+
+.foot {
+	background-color: #c7ced9;
+	width: auto;
+	height: 485px;
+}
+
+.col-md {font-size: 18px}
